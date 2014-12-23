@@ -107,7 +107,7 @@ input, textarea
   +placeholder
     font-size: 13px
     text-transform: none
-    color: #a0a0a0
+    color: #a6a6a6
     +rl
 %in
   max-width: 1200px
@@ -165,7 +165,7 @@ input, textarea
 .counter
   display: inline-block
   vertical-align: middle
-  margin-top: 10px
+  margin-top: 30px
   .bl
     float: left
     text-align: center
@@ -173,22 +173,25 @@ input, textarea
     &:last-of-type
       margin-right: 0
     span
-      width: 55px
-      height: 41px
+      width: 58px
+      height: 58px
       display: inline-block
-      +rm
-      font-size: 28px
-      color: white
+      +rr
+      font-size: 42px
+      color: #424242
       padding-top: 0
-      background: url(../img/counter_bg.png) no-repeat
       position: relative
-      +box-shadow(black 0 5px 12px -4px)
+      +border-radius(2px)
+      +background-clip(padding-box)
+      background: #fff
+      +text-shadow(0 1px 0 #fff)
+      +box-shadow(0 1px 4px rgba(0,0,0,.26))
       &:after
         position: absolute
         content: ":"
-        font-size: 26px
-        color: rgb(58,58,58)
-        top: 0
+        font-size: 32px
+        color: #ffffff
+        top: 5px
         right: -16px
       &.s
         &:after
@@ -196,9 +199,9 @@ input, textarea
 
 
     p
-      font-family: 'robotolight'
-      font-size: 13px
-      color: #a0a0a0
+      font-family: Arial
+      font-size: 12px
+      color: #ffffff
       margin-top: 6px
 
 
