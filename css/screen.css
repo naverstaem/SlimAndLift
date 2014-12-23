@@ -1646,7 +1646,7 @@ input::placeholder, textarea::placeholder { font-size: 13px; text-transform: non
 
 .fancybox-inner { -webkit-box-shadow: 0 38px 40px -40px black; box-shadow: 0 38px 40px -40px black; }
 
-.myFancyClose { position: absolute; top: -8px; right: -9px; background: url('../img/icons-s8ebdae4f89.png') 0 -32px no-repeat; width: 20px; height: 20px; }
+.myFancyClose { position: absolute; top: -8px; right: -9px; background: url('../img/icons-sfa3160a3fa.png') 0 -32px no-repeat; width: 20px; height: 20px; }
 
 .btn { display: inline-block; font-family: "roboto_slabbold"; padding: 13px 54px; font-size: 24px; text-decoration: none; text-transform: uppercase; -webkit-transition: background, 0.5s; -o-transition: background, 0.5s; transition: background, 0.5s; -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; -moz-background-clip: padding; -o-background-clip: padding-box; -webkit-background-clip: padding; background-clip: padding-box; background: #f1a8a1; color: #ffffff; -webkit-box-shadow: 0 3px 0 #cb6f65, inset 0 -1px 0 rgba(255, 255, 255, 0.12); box-shadow: 0 3px 0 #cb6f65, inset 0 -1px 0 rgba(255, 255, 255, 0.12); text-shadow: 1px 2px 0 rgba(0, 0, 0, 0.15); }
 .btn:hover { background: #f3b4ae; -webkit-box-shadow: 0 0 0 0; box-shadow: 0 0 0 0; color: #fff; }
@@ -1665,7 +1665,7 @@ input::placeholder, textarea::placeholder { font-size: 13px; text-transform: non
 
 .navbar-top { text-align: left; color: #575142; margin-bottom: 10px; }
 .navbar-top .right-b { font-family: "robotoregular"; font-size: 25px; display: inline-block; line-height: 1em; padding: 10px 25px 10px 0; vertical-align: text-bottom; border-right: solid 1px #d3be8d; }
-.navbar-top .right-b i { display: inline-block; vertical-align: middle; background: url('../img/icons-s8ebdae4f89.png') 0 -62px no-repeat; width: 16px; height: 16px; position: relative; content: ""; top: 0; left: 0; margin-right: 10px; }
+.navbar-top .right-b i { display: inline-block; vertical-align: middle; background: url('../img/icons-sfa3160a3fa.png') 0 -95px no-repeat; width: 16px; height: 16px; position: relative; content: ""; top: 0; left: 0; margin-right: 10px; }
 .navbar-top .right-b-after { display: inline-block; margin-left: 3%; vertical-align: text-bottom; }
 .navbar-top .right-b-after h3 { font-size: 16px; margin: 0; font-family: "robotoregular"; font-weight: normal; font-style: normal; }
 .navbar-top .right-b-after .callme { font-size: 14px; text-decoration: underline; color: #575142; font-family: "robotolight"; font-weight: normal; font-style: normal; }
@@ -1734,6 +1734,23 @@ header .header__button { margin-top: 15px; }
 .features__item.i7 { margin-top: 60px; padding-left: 120px; }
 .features__item.i8 { margin-top: 60px; padding-left: 20px; }
 .features__button { margin: 60px 0 0; text-align: center; }
+
+.advantages { padding-top: 50px; background: url(../img/advantages_bg.png); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; }
+.advantages h2 { font-size: 36px; margin-bottom: 40px; }
+.advantages__list { padding: 0; list-style: none; margin-top: 15px; }
+.advantages__list li { position: relative; margin-left: -30px; padding-right: 10px; margin-bottom: 50px; }
+.advantages__list li:before { position: absolute; content: ""; background: url('../img/icons-sfa3160a3fa.png') 0 -62px no-repeat; width: 25px; height: 23px; right: -25px; top: -2px; }
+.advantages__list.left { text-align: left; }
+.advantages__list.left li { margin-left: 45px; padding-right: 0; margin-right: -40px; }
+.advantages__list.left li:before { left: -33px; right: auto; }
+.advantages__list.right { text-align: right; }
+.advantages__before, .advantages__after { width: 256px; height: 420px; text-align: center; }
+.advantages__before img, .advantages__after img { max-width: 100%; }
+.advantages__before p, .advantages__after p { font-family: "robotolight"; font-size: 14px; color: #ada59f; margin-top: -15px; }
+.advantages__size { margin-top: 30px; }
+.advantages__size .size-b { background: url(../img/size_bg.png); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; padding: 45px 0 40px; font-family: "robotobold"; font-weight: normal; font-style: normal; color: #ffffff; font-size: 18px; }
+.advantages__size ul { display: inline-block; font-size: 16px; margin-top: 20px; font-family: "robotolight"; font-weight: normal; font-style: normal; color: #444444; }
+.advantages__size_text { padding-left: 55px; }
 
 .header--bottom { background: url(../img/header--bottom_bg.jpg) center center no-repeat; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; position: relative; padding-top: 500px; }
 .header--bottom .intro__form--bottom { position: relative; top: 135px; }
