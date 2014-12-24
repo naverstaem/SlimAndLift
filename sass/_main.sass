@@ -296,6 +296,7 @@ header
   padding-bottom: 70px
   background: url(../img/advantages_bg.png)
   +cover
+  position: relative
   h2
     font-size: 36px
     margin-bottom: 40px
@@ -398,10 +399,80 @@ header
     text-align: center
 
 
+.works
+  background: url(../img/works_bg.png)
+  +cover
+  min-height: 617px
+  margin-top: -10px
+  padding: 50px 0
+  &__block
+    background: url(../img/works-block_bg.png) 50% 50% no-repeat
+    background-size: 450px 509px
+    h2
+      font-family: 'roboto_slablight'
+      font-size: 36px
+      color: #ffffff
+      text-align: right
+      display: inline-block
+      margin-top: 120px
+      span
+        font-family: 'roboto_slabbold'
+        font-size: 46px
+  &__item
+    display: inline-block
+    +rr
+    font-size: 16px
+    color: white
+    line-height: 1.2em
+    p
+      display: inline-block
+      float: left
+      margin-right: 15px
+      margin-top: 8px
+      margin-bottom: 0
+    .outer
+      float: left
+      width: 54px
+      height: 54px
+      border: solid 2px rgba(#ffffff,.5)
+      +border-radius(50%)
+      position: relative
+      display: inline-block
+      text-align: center
+    .inner
+      width: 35px
+      height: 35px
+      line-height: 35px
+      position: relative
+      top: 50%
+      +transform(translateY(-50%))
+      display: inline-block
+      background: #f3d99f
+      +border-radius(50%)
+      +rr
+      font-size: 22px
+      color: #444
 
-
-
-
+    &.left
+      text-align: right
+    &.right
+      text-align: left
+    &.i4
+      margin-top: 120px
+      margin-left: 65px
+    &.i1,&.i2,&.i3
+      p
+        margin-left: 15px
+        margin-right: 0
+    &.i1
+      margin-top: 130px
+      margin-left: 65px
+    &.i2
+      margin-top: 100px
+      margin-left: 95px
+    &.i3
+      margin-top: 100px
+      margin-left: -15px
 
 
 

@@ -1735,7 +1735,7 @@ header .header__button { margin-top: 15px; }
 .features__item.i8 { margin-top: 60px; padding-left: 20px; }
 .features__button { margin: 60px 0 0; text-align: center; }
 
-.advantages { padding-top: 50px; padding-bottom: 70px; background: url(../img/advantages_bg.png); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; }
+.advantages { padding-top: 50px; padding-bottom: 70px; background: url(../img/advantages_bg.png); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; position: relative; }
 .advantages h2 { font-size: 36px; margin-bottom: 40px; }
 .advantages__list { padding: 0; list-style: none; margin-top: 15px; }
 .advantages__list li { position: relative; margin-left: -30px; padding-right: 10px; margin-bottom: 50px; }
@@ -1761,6 +1761,22 @@ header .header__button { margin-top: 15px; }
 .advantages__composition-item:last-child { width: 38%; }
 .advantages__composition-item:last-child p { margin-top: 0; }
 .advantages__button { margin: 40px 0 0; text-align: center; }
+
+.works { background: url(../img/works_bg.png); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; min-height: 617px; margin-top: -10px; padding: 50px 0; }
+.works__block { background: url(../img/works-block_bg.png) 50% 50% no-repeat; background-size: 450px 509px; }
+.works__block h2 { font-family: "roboto_slablight"; font-size: 36px; color: #ffffff; text-align: right; display: inline-block; margin-top: 120px; }
+.works__block h2 span { font-family: "roboto_slabbold"; font-size: 46px; }
+.works__item { display: inline-block; font-family: "robotoregular"; font-weight: normal; font-style: normal; font-size: 16px; color: white; line-height: 1.2em; }
+.works__item p { display: inline-block; float: left; margin-right: 15px; margin-top: 8px; margin-bottom: 0; }
+.works__item .outer { float: left; width: 54px; height: 54px; border: solid 2px rgba(255, 255, 255, 0.5); -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; position: relative; display: inline-block; text-align: center; }
+.works__item .inner { width: 35px; height: 35px; line-height: 35px; position: relative; top: 50%; -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -webkit-transform: translateY(-50%); transform: translateY(-50%); display: inline-block; background: #f3d99f; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; font-family: "robotoregular"; font-weight: normal; font-style: normal; font-size: 22px; color: #444; }
+.works__item.left { text-align: right; }
+.works__item.right { text-align: left; }
+.works__item.i4 { margin-top: 120px; margin-left: 65px; }
+.works__item.i1 p, .works__item.i2 p, .works__item.i3 p { margin-left: 15px; margin-right: 0; }
+.works__item.i1 { margin-top: 130px; margin-left: 65px; }
+.works__item.i2 { margin-top: 100px; margin-left: 95px; }
+.works__item.i3 { margin-top: 100px; margin-left: -15px; }
 
 .header--bottom { background: url(../img/header--bottom_bg.jpg) center center no-repeat; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; position: relative; padding-top: 500px; }
 .header--bottom .intro__form--bottom { position: relative; top: 135px; }
