@@ -631,28 +631,27 @@ header
 
 .also
   +clr
-  padding-top: 160px
-  padding-bottom: 90px
+  padding-top: 10px
+  padding-bottom: 40px
+  background: url(../img/also_bg.png) repeat
 
   h2
-    line-height: .8
-    color: #3f3f3f
-    &:after
-      border-bottom: none
+    font-size: 36px
+    color: #fff
+
   &__items
-    margin-top: 80px
     text-align: center
   .item
-    background: url(../img/form_bg--bottom.png) no-repeat
+    background: #ffffff
     text-align: center
     display: inline-block
+    +border-radius(4px)
     vertical-align: top
     margin-top: 60px
-    +cover
-    padding-bottom: 40px
+    +box-shadow(0 1px 3px rgba(0,0,0,.21))
+    padding-bottom: 30px
     .img
-      height: 271px
-      margin-top: -64px
+      height: 242px
       display: inline-block
       margin-bottom: 10px
       img
@@ -660,15 +659,14 @@ header
         width: 100%
         max-width: 305px
     .img--second
-      margin-top: -56px
-      margin-bottom: 2px
+      img
+        margin-top: 30px
     h3
-      font-size: 30px
-      font-family: 'forumregular'
-      color: #ffffff
+      font-size: 18px
+      font-family: 'robotoregular'
+      color: #000
       margin: 5px 0 17px
       font-weight: normal
-      +text-shadow(0 1px 0 rgba(0,0,0,.08))
 
     .wave
       width: 100%
@@ -685,26 +683,25 @@ header
     margin: 0 0 20px
     padding: 0 30px
   .price-old
-    color: #cfe7f7
-    font-size: 30px
-    font-family: 'forumregular'
+    color: #6c5e50
+    font-size: 22px
+    font-family: 'roboto_slabregular'
     padding: 0
     background: none
-    text-align: right
-    width: 49%
-    +text-shadow(0 1px 0 rgba(0,0,0,.08))
+    text-align: left
     display: inline-block
+    vertical-align: top
     span
-      font-size: 30px
+      font-size: 14px
   .price-new
     @extend .price-old
     background: none
-    color: #ffffff
-    text-align: left
-    font-family: 'forumregular'
-    font-size: 48px
+    color: #6c5e50
+    text-align: right
+    font-family: 'roboto_slabbold'
+    font-size: 35px
     span
-      font-size: 42px
+      font-size: 23px
 
   form
     padding: 0 35px
@@ -712,26 +709,24 @@ header
 
   input
     width: 100%
-    height: 50px
+    height: 48px
     margin-bottom: 14px
     padding-left: 15px
     font-size: 15px
-    +border-radius(3px)
+    +border-radius(6px)
     +background-clip(padding-box)
-    background-color: #fff
-    @include box-shadow(inset 1px 2px 0 #86bee4)
     border: none
+    background-color: rgba(0,0,0,.02)
+    +box-shadow(inset 0 1px 2px rgba(0,0,0,.09))
 
     &:focus
       @include box-shadow(0 0 9px rgba(204,62,82,.13)) // outer glow
 
 
   .btn--review
-    font-size: 18px
-    height: 48px
+    height: 63px
     width: 100%
-    margin-top: 11px
-    +rb
+    margin-top: 0
 
 
 
