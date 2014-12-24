@@ -822,6 +822,18 @@ footer
 
   h1, .title
     font-size: 24px !important
+  .features__item
+    padding: 0 !important
+  .advantages__size
+    .size-b
+      background: rgba(#8B7C6C,.6)
+  .order
+    h2
+      background: rgba(#8B7C6C,.6)
+      +border-radius(4px)
+    &__price
+      margin-top: 0
+
 @media (max-width: $screen-sm-min)
   .advantages__list
     li
@@ -831,4 +843,6 @@ footer
         right: -10px
 
 @media (max-width: $screen-xs-min)
-
+  .navbar-default
+    .navbar-nav
+      margin: 0
