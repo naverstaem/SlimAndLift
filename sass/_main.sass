@@ -474,7 +474,63 @@ header
       margin-top: 100px
       margin-left: -15px
 
+.review
+  padding: 55px 0
+  h2
+    font-size: 36px
+    line-height: .9em
+    span
+      font-size: 23px
+      font-family: 'roboto_slablight'
 
+  &__item
+    margin-top: 35px
+    position: relative
+    text-align: left
+
+  &__img
+    display: inline-block
+    width: 63px
+    height: 63px
+    margin-right: 15px
+    vertical-align: middle
+    img
+      +border-radius(50%)
+  &__head
+    text-align: left
+    display: inline-block
+    vertical-align: middle
+
+  &__name
+    font-family: 'robotobold'
+    color: #1c1c1c
+    font-size: 16px
+    position: relative
+  &__date
+    font-family: 'robotoregular'
+    color: #bcbcbc
+    font-size: 13px
+    line-height: 1em
+  &__text
+    position: relative
+    font-family: 'robotoregular'
+    font-size: 14px
+    color: #3e3e3e
+    margin-top: 20px
+    border: 1px solid #e8e8e8
+    padding: 15px
+    +border-radius(8px)
+    text-align: left
+    z-index: 1
+    &:before
+      position: absolute
+      content: ''
+      +s(review-popup)
+      top: -10px
+      left: 20px
+  &__button
+    margin: 40px 0 0
+    text-align: center
 
 
 
