@@ -532,8 +532,65 @@ header
     margin: 40px 0 0
     text-align: center
 
-
-
+.order
+  background: url(../img/order_bg.jpg)
+  +cover
+  text-align: center
+  h2
+    color: #ffffff
+    font-family: 'roboto_slablight'
+    font-size: 37px
+    margin-top: 130px
+    span
+      font-family: 'roboto_slabbold'
+      font-size: 56px
+      line-height: .7em
+      letter-spacing: -1px
+  &__counter
+    margin-top: 30px
+  &__form
+    margin-top: 20px
+    padding: 0 20px 110px
+    input
+      width: 100%
+      height: 48px
+      +border-radius(6px)
+      +background-clip(padding-box)
+      background-color: #fff
+      display: block
+      border: none
+      margin-right: 10px
+      padding-left: 15px
+      +box-shadow(inset 0 1px 2px rgba(0,0,0,.09))
+      margin-bottom: 8px
+    .button-wrapper
+      width: 100%
+    .button--form
+      display: block
+      width: 100%
+      height: 63px
+      position: relative
+    .button-shadow
+      margin: 0 auto
+      width: 80%
+      +box-shadow(0 -2px 20px 3px #000)
+  &__price
+    margin-top: 235px
+    color: #ffffff
+    background: url(../img/price_bg.png) no-repeat
+    text-align: center
+    font-family: 'roboto_slablight'
+    font-size: 24px
+    padding-top: 50px
+    +text-shadow(1px 2px 0 rgba(0,0,0,.15))
+    width: 210px
+    height: 210px
+    span
+      font-family: 'roboto_slabbold'
+      font-size: 58px
+      line-height: 1em
+      span
+        font-size: 38px
 
 
 

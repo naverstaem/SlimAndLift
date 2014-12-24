@@ -81,7 +81,7 @@
                        </div>
                        <div class="col-md-3">
                         <div class="header__price center-block">
-                            750р.<br><span>499<span>р.</span></span>
+                            <s>750р.</s><br><span>499<span>р.</span></span>
                         </div>
                        </div>
                    </div>
@@ -160,6 +160,7 @@
 
                                 </div>
                             </div>
+
 
     </div>
         </div>
@@ -479,10 +480,59 @@
 
 
 
-<section class="header--bottom">
+<section class="order">
     <div class="container">
+      <div class="row">
+          <div class="col-md-5">
+              <h2 class="title">Закажи сейчас<br><span>по супер цене</span></h2>
+              <div class="order__counter">
+                  <div class="counter">
+                      <div class="bl">
+                          <span class="d">00</span>
 
+                          <p>дней</p>
+                      </div>
+                      <div class="bl">
+                          <span class="h">09</span>
+
+                          <p>часов</p>
+                      </div>
+                      <div class="bl">
+                          <span class="m">03</span>
+
+                          <p>минут</p>
+                      </div>
+                      <div class="bl">
+                          <span class="s">10</span>
+
+                          <p>секунд</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="order__form">
+
+                  <form id="form5" action="#" method="post" novalidate="novalidate">
+                      <input type="text" name="name" class="name required" placeholder="Ваше имя" aria-required="true">
+                      <input type="text" name="phone" class="phone required" placeholder="Ваш  телефон" aria-required="true">
+                      <div class="button-wrapper">
+                          <button class="btn button--form">заказать</button>
+                          <div class="button-shadow"></div>
+
+                      </div>
+
+
+                  </form>
+
+              </div>
+          </div>
+          <div class="col-md-3">
+              <div class="order__price center-block">
+                  <s>750р.</s><br><span>499<span>р.</span></span>
+          </div>
+      </div>
     </div>
+        </div>
 </section>
 
 <section class="also">
@@ -590,7 +640,7 @@
      style="display: none;">
     <h2>Заказать звонок</h2>
 
-    <form action="#" method="post" id="form5">
+    <form action="#" method="post" id="form6">
         <input type="text" name="name"
                class="name required"
                placeholder="Ваше имя">
