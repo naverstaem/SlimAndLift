@@ -43,8 +43,8 @@ head.ready(function() {
     $('#form3').validate();
     $('#form4').validate();
     $('#form5').validate();
-
-    $("#form5").ajaxForm({
+    $('#form6').validate();
+    $("#form6").ajaxForm({
         success: function () {
             $(".thanks-link").trigger('click');
         },
@@ -57,7 +57,7 @@ head.ready(function() {
         helpers:{
             overlay: {
                 locked: false,
-                css:{'background' : 'rgba(#000000, 0.6)'}
+                css:{'background' : 'rgba(#000000, 0.5)'}
             }
         },
         tpl: {
