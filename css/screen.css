@@ -1835,36 +1835,22 @@ header .header__button { margin-top: 15px; }
 .also input:focus { -webkit-box-shadow: 0 0 9px rgba(204, 62, 82, 0.13); box-shadow: 0 0 9px rgba(204, 62, 82, 0.13); }
 .also .btn--review { height: 63px; width: 100%; margin-top: 0; }
 
-footer { box-sizing: border-box; background: url(../img/footer_bg.png); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; padding: 40px 0; font-size: 14px; position: relative; color: #cdcdd5; }
-footer .footer__left { float: left; text-align: left; }
-footer .footer__left a { display: block; font-family: "robotolight"; font-weight: normal; font-style: normal; color: #cdcdd5; text-decoration: none; }
-footer .footer__left a:hover { text-decoration: underline; }
-footer .footer__right { float: right; text-align: right; }
+footer { background: #302a23; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; padding: 20px 0; position: relative; }
+footer .footer__text { text-align: center; }
+footer .footer__text a { font-size: 22px; display: inline-block; font-family: "robotoregular"; font-weight: normal; font-style: normal; color: #f3da9f; text-decoration: none; }
+footer .footer__text a:hover { text-decoration: underline; }
+footer .footer__text p { font-size: 28px; color: #ffffff; font-family: "robotoregular"; font-weight: normal; font-style: normal; }
 
-.callback { background: url(../img/popup-order_bg.png) center center no-repeat; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; padding: 20px 25px 35px; text-align: center; -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; }
-.callback h2 { font-family: "forumregular"; font-size: 48px; color: #ffffff; font-weight: normal; }
+.callback { background: #ffffff; padding: 15px 34px 30px; text-align: center; -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; max-width: 310px; }
+.callback h2 { font-family: "roboto_slabbold"; font-size: 28px; color: #444; font-weight: normal; }
 .callback form { margin-top: 25px; }
-.callback form input { width: 100%; display: block; height: 50px; margin-bottom: 14px; padding-left: 15px; font-size: 15px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; -moz-background-clip: padding; -o-background-clip: padding-box; -webkit-background-clip: padding; background-clip: padding-box; background-color: #fff; -webkit-box-shadow: inset 1px 2px 0 #86bee4; box-shadow: inset 1px 2px 0 #86bee4; border: none; }
+.callback form input { width: 100%; height: 48px; margin-bottom: 14px; padding-left: 15px; font-size: 15px; -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; -moz-background-clip: padding; -o-background-clip: padding-box; -webkit-background-clip: padding; background-clip: padding-box; border: none; background-color: rgba(0, 0, 0, 0.02); -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.09); box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.09); }
 .callback form input:focus { -webkit-box-shadow: 0 0 9px rgba(204, 62, 82, 0.13); box-shadow: 0 0 9px rgba(204, 62, 82, 0.13); }
-.callback form .button--callback { margin-top: 10px; font-size: 18px; width: 100%; padding: 0; height: 48px; }
+.callback form .button--callback { margin-top: 0; width: 100%; height: 63px; }
 
-.thanks { text-align: center; background: url(../img/popup-thanks_bg.png) center center no-repeat; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; *zoom: 1; font-family: "forumregular"; color: #ffffff; padding: 30px 0; max-width: 422px; -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; }
-.thanks:after { content: " "; display: table; clear: both; }
-.thanks__img { margin-bottom: 15px; display: inline-block; position: relative; width: 154px; height: 154px; }
-.thanks h2 { font-weight: normal; font-size: 60px; line-height: 1em; }
-.thanks h3 { font-weight: normal; font-size: 37px; line-height: 1em; margin-bottom: 8px; margin-top: 0; }
-.thanks h4 { font-weight: normal; font-size: 23px; line-height: 1.2em; padding: 0 30px; }
+.thanks { text-align: center; background: #ffffff; font-family: "forumregular"; color: #444444; padding: 30px 0 40px; max-width: 380px; -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; }
+.thanks__img { margin-bottom: 15px; display: inline-block; position: relative; width: 351px; height: 101px; }
+.thanks h2 { font-weight: normal; font-size: 28px; line-height: 1em; font-family: "roboto_slabbold"; }
+.thanks h4 { font-weight: normal; font-size: 19px; padding: 0 30px; font-family: "robotolight"; }
 
-@media (max-width: 992px) { .about__text--second { margin-top: 0 !important; }
-  .instruction__items .item__img:after { width: 0 !important; }
-  .work h2 { top: 0 !important; }
-  .work .row { text-align: center !important; }
-  .intro__form { background: #96d0f7; }
-  .intro__img img { width: 100%; }
-  h1, .title { font-size: 24px !important; } }
-@media (max-width: 480px) { .intro__form .counter .bl { margin: 0 4px !important; }
-  .intro__form .block__form form { text-align: center !important; }
-  .intro__form .block__top { text-align: center !important; }
-  .work .reviews { padding-top: 250px; }
-  footer .footer__left, footer .footer__right { float: none; text-align: center; margin-top: 10px; }
-  .instruction h3 { padding: 0; } }
+@media (max-width: 992px) { h1, .title { font-size: 24px !important; } }
