@@ -354,6 +354,19 @@ header
       margin-top: 20px
       +rl
       color: #444444
+      list-style: none
+      li
+        position: relative
+        &:before
+          position: absolute
+          content: ''
+          width: 3px
+          height: 3px
+          background: #444
+          +border-radius(50%)
+          top: 10px
+          left: -10px
+
   &__size_text
     padding-left: 55px
   &__specs
@@ -372,6 +385,18 @@ header
       margin-top: 0
     ul
       padding-left: 15px
+      list-style: none
+      li
+        position: relative
+        &:before
+          position: absolute
+          content: ''
+          width: 3px
+          height: 3px
+          background: #444
+          +border-radius(50%)
+          top: 10px
+          left: -13px
   &__composition
 
   &__composition-item

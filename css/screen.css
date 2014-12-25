@@ -1749,12 +1749,16 @@ header .header__button { margin-top: 15px; }
 .advantages__before p, .advantages__after p { font-family: "robotolight"; font-size: 14px; color: #ada59f; margin-top: -15px; }
 .advantages__size { margin-top: 30px; }
 .advantages__size .size-b { background: url(../img/size_bg.png); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; padding: 45px 0 40px; font-family: "robotobold"; font-weight: normal; font-style: normal; color: #ffffff; font-size: 18px; }
-.advantages__size ul { display: inline-block; font-size: 16px; margin-top: 20px; font-family: "robotolight"; font-weight: normal; font-style: normal; color: #444444; }
+.advantages__size ul { display: inline-block; font-size: 16px; margin-top: 20px; font-family: "robotolight"; font-weight: normal; font-style: normal; color: #444444; list-style: none; }
+.advantages__size ul li { position: relative; }
+.advantages__size ul li:before { position: absolute; content: ""; width: 3px; height: 3px; background: #444; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; top: 10px; left: -10px; }
 .advantages__size_text { padding-left: 55px; }
 .advantages__specs { color: #444; font-family: "robotolight"; font-weight: normal; font-style: normal; font-size: 14px; margin-top: 40px; }
 .advantages__kit { padding-right: 25px; border-right: solid 1px rgba(0, 0, 0, 0.11); margin-left: -15px; }
 .advantages__kit h3 { font-family: "roboto_slabbold"; font-size: 20px; margin-top: 0; }
-.advantages__kit ul { padding-left: 15px; }
+.advantages__kit ul { padding-left: 15px; list-style: none; }
+.advantages__kit ul li { position: relative; }
+.advantages__kit ul li:before { position: absolute; content: ""; width: 3px; height: 3px; background: #444; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; top: 10px; left: -13px; }
 .advantages__composition-item { display: inline-block; text-align: left; width: 30%; vertical-align: top; margin-top: 10px; }
 .advantages__composition-item img { display: inline-block; vertical-align: middle; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; width: 58px; height: 58px; margin-right: 10px; float: left; }
 .advantages__composition-item p { margin-top: 10px; }
