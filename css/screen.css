@@ -1646,7 +1646,7 @@ input::placeholder, textarea::placeholder { font-size: 13px; text-transform: non
 
 .fancybox-inner { -webkit-box-shadow: 0 38px 40px -40px black; box-shadow: 0 38px 40px -40px black; }
 
-.myFancyClose { position: absolute; top: -8px; right: -9px; background: url('../img/icons-sbfa4d38445.png') 0 -32px no-repeat; width: 20px; height: 20px; }
+.myFancyClose { position: absolute; top: -8px; right: -9px; background: url('../img/icons-s1ac7b622b0.png') 0 -32px no-repeat; width: 23px; height: 23px; }
 
 .btn { display: inline-block; font-family: "roboto_slabbold"; padding: 13px 54px; font-size: 24px; text-decoration: none; text-transform: uppercase; -webkit-transition: background, 0.5s; -o-transition: background, 0.5s; transition: background, 0.5s; -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; -moz-background-clip: padding; -o-background-clip: padding-box; -webkit-background-clip: padding; background-clip: padding-box; background: #f1a8a1; color: #ffffff; -webkit-box-shadow: 0 3px 0 #cb6f65, inset 0 -1px 0 rgba(255, 255, 255, 0.12); box-shadow: 0 3px 0 #cb6f65, inset 0 -1px 0 rgba(255, 255, 255, 0.12); text-shadow: 1px 2px 0 rgba(0, 0, 0, 0.15); }
 .btn:hover { background: #f3b4ae; -webkit-box-shadow: 0 0 0 0; box-shadow: 0 0 0 0; color: #fff; }
@@ -1665,7 +1665,7 @@ input::placeholder, textarea::placeholder { font-size: 13px; text-transform: non
 
 .navbar-top { text-align: left; color: #575142; margin-bottom: 10px; }
 .navbar-top .right-b { font-family: "robotoregular"; font-size: 25px; display: inline-block; line-height: 1em; padding: 10px 25px 10px 0; vertical-align: text-bottom; border-right: solid 1px #d3be8d; }
-.navbar-top .right-b i { display: inline-block; vertical-align: middle; background: url('../img/icons-sbfa4d38445.png') 0 -95px no-repeat; width: 16px; height: 16px; position: relative; content: ""; top: 0; left: 0; margin-right: 10px; }
+.navbar-top .right-b i { display: inline-block; vertical-align: middle; background: url('../img/icons-s1ac7b622b0.png') 0 -98px no-repeat; width: 16px; height: 16px; position: relative; content: ""; top: 0; left: 0; margin-right: 10px; }
 .navbar-top .right-b-after { display: inline-block; margin-left: 3%; vertical-align: text-bottom; }
 .navbar-top .right-b-after h3 { font-size: 16px; margin: 0; font-family: "robotoregular"; font-weight: normal; font-style: normal; }
 .navbar-top .right-b-after .callme { font-size: 14px; text-decoration: underline; color: #575142; font-family: "robotolight"; font-weight: normal; font-style: normal; }
@@ -1739,7 +1739,7 @@ header .header__button { margin-top: 15px; }
 .advantages h2 { font-size: 36px; margin-bottom: 40px; }
 .advantages__list { padding: 0; list-style: none; margin-top: 15px; }
 .advantages__list li { position: relative; margin-left: -30px; padding-right: 10px; margin-bottom: 50px; }
-.advantages__list li:before { position: absolute; content: ""; background: url('../img/icons-sbfa4d38445.png') 0 -62px no-repeat; width: 25px; height: 23px; right: -25px; top: -2px; }
+.advantages__list li:before { position: absolute; content: ""; background: url('../img/icons-s1ac7b622b0.png') 0 -65px no-repeat; width: 25px; height: 23px; right: -25px; top: -2px; }
 .advantages__list.left { text-align: left; }
 .advantages__list.left li { margin-left: 45px; padding-right: 0; margin-right: -40px; }
 .advantages__list.left li:before { left: -33px; right: auto; }
@@ -1788,7 +1788,7 @@ header .header__button { margin-top: 15px; }
 .review__name { font-family: "robotobold"; color: #1c1c1c; font-size: 16px; position: relative; }
 .review__date { font-family: "robotoregular"; color: #bcbcbc; font-size: 13px; line-height: 1em; }
 .review__text { position: relative; font-family: "robotoregular"; font-size: 14px; color: #3e3e3e; margin-top: 20px; border: 1px solid #e8e8e8; padding: 15px; -moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; text-align: left; z-index: 1; }
-.review__text:before { position: absolute; content: ""; background: url('../img/icons-sbfa4d38445.png') 0 -121px no-repeat; width: 19px; height: 13px; top: -10px; left: 20px; }
+.review__text:before { position: absolute; content: ""; background: url('../img/icons-s1ac7b622b0.png') 0 -124px no-repeat; width: 19px; height: 13px; top: -10px; left: 20px; }
 .review__button { margin: 40px 0 0; text-align: center; }
 
 .order { background: url(../img/order_bg.jpg); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; text-align: center; }
